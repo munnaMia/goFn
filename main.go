@@ -8,5 +8,5 @@ import (
 
 func main() {
 	fmt.Println("Welcome to GO FN")
-	patterns.InvertTringle(5, '*')
+	patterns.SideWallTringle(3, '*')
 }
