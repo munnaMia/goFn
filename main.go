@@ -8,5 +8,5 @@ import (
 
 func main() {
 	fmt.Println("Welcome to GO FN")
-	fmt.Println(math.ReverseDigit(12340))
+	fmt.Println(math.IsPrime3(301))
 }
