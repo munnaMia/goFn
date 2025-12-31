@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/munnaMia/goFn/patterns"
+	"github.com/munnaMia/goFn/math"
 )
 
 func main() {
 	fmt.Println("Welcome to GO FN")
-	patterns.SideWallTringle(3, '*')
+	fmt.Println(math.CountDigitOptimal(1223450))
 }
