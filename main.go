@@ -8,5 +8,5 @@ import (
 
 func main() {
 	fmt.Println("Welcome to GO FN")
-	fmt.Println(math.CountDigitOptimal(1223450))
+	fmt.Println(math.ReverseDigit(12340))
 }
