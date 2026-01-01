@@ -8,5 +8,5 @@ import (
 
 func main() {
 	fmt.Println("Welcome to GO FN")
-	fmt.Println(math.Palindrome2(13321))
+	fmt.Println(math.GCD2(20 , 150))
 }
