@@ -8,5 +8,5 @@ import (
 
 func main() {
 	fmt.Println("Welcome to GO FN")
-	fmt.Println(math.IsPrime3(301))
+	fmt.Println(math.Palindrome2(13321))
 }
