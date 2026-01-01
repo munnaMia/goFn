@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/munnaMia/goFn/math"
+	"github.com/munnaMia/goFn/recursion"
 )
 
 func main() {
 	fmt.Println("Welcome to GO FN")
-	fmt.Println(math.GCD2(20 , 150))
+	recursion.PrintNRev3(10)
 }
