@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/munnaMia/goFn/recursion"
+	"github.com/munnaMia/goFn/hasing"
 )
 
 func main() {
 	fmt.Println("Welcome to GO FN")
-	recursion.PrintNRev3(10)
+	fmt.Println(hasing.CountFreqHighAndLow(4444333221))
 }

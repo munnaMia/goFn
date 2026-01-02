@@ -40,3 +40,25 @@ func PrintNRev2(n, i int) {
 	i++
 	PrintNRev2(n, i)
 }
+
+// Sum of n numbers
+func SumOfN(n int) int {
+	if n == 1 {
+		return 1
+	}
+
+	return n + SumOfN(n-1)
+
+}
+
+
+
+// fact of n numbers
+func FactoOfN(n int) int {
+	if n == 1 {
+		return 1
+	}
+
+	return n * SumOfN(n-1)
+
+}
