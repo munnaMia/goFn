@@ -3,10 +3,14 @@ package main
 import (
 	"fmt"
 
-	"github.com/munnaMia/goFn/math"
+	"github.com/munnaMia/goFn/sorting"
 )
 
 func main() {
 	fmt.Println("Welcome to GO FN")
-	fmt.Println(math.Divisor2(30))
+	arr := []int{123, 5, 3, 23, 5, 2, 234, 5, 3, 234, 234, 234, 5, 56, 5, 6, 476, 75, 546}
+
+	fmt.Println(arr)
+	sorting.SelectionSort(arr)
+	fmt.Println(arr)
 }
