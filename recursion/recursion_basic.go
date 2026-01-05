@@ -11,6 +11,14 @@ func PrintNameNTime(n int, name string) {
 	PrintNameNTime(n, name)
 }
 
+func PrintN(n int) {
+	if n == 0 {
+		return
+	}
+	PrintN(n - 1)
+	fmt.Println(n)
+}
+
 // This is also known as forward tracing
 func PrintNRev1(n int) {
 	if n == 0 {
@@ -51,8 +59,6 @@ func SumOfN(n int) int {
 
 }
 
-
-
 // fact of n numbers
 func FactoOfN(n int) int {
 	if n == 1 {
@@ -60,5 +66,29 @@ func FactoOfN(n int) int {
 	}
 
 	return n * SumOfN(n-1)
-
 }
+
+func RevArray(array []int, left, right int) {
+	if left >= right {
+		return
+	}
+	array[left], array[right] = array[right], array[left]
+	left++
+	right--
+	RevArray(array, left, right)
+}
+
+func IsPalindromeStr(str string, i int) {
+	if i >= len(str) {
+		fmt.Println("Is palindrome")
+		return
+	}
+
+	if str[i] != str[len(str)-1-i] {
+		fmt.Println("Is not palindrome")
+		return
+	}
+
+	IsPalindromeStr(str, i+1)
+}
+

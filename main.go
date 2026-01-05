@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/munnaMia/goFn/hasing"
+	"github.com/munnaMia/goFn/math"
 )
 
 func main() {
 	fmt.Println("Welcome to GO FN")
-	fmt.Println(hasing.CountFreqHighAndLow(4444333221))
+	fmt.Println(math.Divisor2(30))
 }
