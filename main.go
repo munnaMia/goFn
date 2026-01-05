@@ -11,6 +11,6 @@ func main() {
 	arr := []int{123, 5, 3, 23, 5, 2, 234, 5, 3, 234, 234, 234, 5, 56, 5, 6, 476, 75, 546}
 
 	fmt.Println(arr)
-	sorting.SelectionSort(arr)
+	sorting.BubbleSort(arr)
 	fmt.Println(arr)
 }
