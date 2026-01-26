@@ -3,12 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/munnaMia/goFn/problem_solving/array"
+	"github.com/munnaMia/goFn/sorting"
 )
 
 func main() {
-	fmt.Println("Welcome to GO FN")
 	arr := []int{15, 6, 476, 75, 546}
-	array.RotatearraybyK(arr, 2, 'l')
+	sorting.RecursiveBubbleSort(arr, len(arr))
 	fmt.Println(arr)
 }
