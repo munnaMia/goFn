@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/munnaMia/goFn/sorting"
+	"github.com/munnaMia/goFn/problem_solving/array"
 )
 
 func main() {
-	arr := []int{10, 9, 8, 7, 6, 5, 4, 3, 2, 1}
-	sorting.QuickSort(arr, 0, len(arr)-1)
+	arr := []int{1,2,3,4,5,7,8}
+	array.FindMissingOne(arr)
 	fmt.Println(arr)
 }
